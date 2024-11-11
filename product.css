@@ -40,7 +40,10 @@ h6 {
 a {
   text-decoration: none;
 }
-
+body{
+  overflow-x:hidden;
+  widht:100vw;
+}
 
 
 /* Navbar */
@@ -1061,8 +1064,8 @@ background-color: #133e87;
   }
 }
 @media (max-width: 400px) {
-  .service-section .main-box {
-    margin-left: -4rem;
+ .service-section .main-box {
+    margin-left: -7rem;
   } 
 }
 
