@@ -9,7 +9,6 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 h1,
@@ -40,6 +39,7 @@ h6 {
 a {
   text-decoration: none;
 }
+
 body{
   overflow-x:hidden;
   widht:100vw;
