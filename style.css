@@ -1086,6 +1086,9 @@ li a:hover {
 }
 
 @media (max-width: 580px) {
+  .about-section{
+  width:100vw;
+  }
   .about-product h2 {
     margin: 1rem 0rem;
   }
