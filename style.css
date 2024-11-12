@@ -9,11 +9,11 @@
 
 html {
   font-size: 62.5%;
-  overflow-x:hidden;
+  /* overflow-x: hidden; */
 }
 
 h1,
-h2,
+h2, 
 h3,
 h4,
 h5,
@@ -94,7 +94,7 @@ body{
   }
   100% {
     background-image: url("Img/Rectifier_Main.png");
-  }
+      }
   
 }
 
