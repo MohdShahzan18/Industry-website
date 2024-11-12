@@ -794,9 +794,10 @@ body{
   }
 
   .about-product p {
-    width: 95vw;
+    width: 90vw;
     font-size: 1.6rem;
     text-align: justify;
+   padding-left: 2rem;
   }
 }
 
@@ -842,6 +843,7 @@ body{
     font-size: 1.4rem;
     text-align: justify;
     margin: 3rem 0rem;
+    margin-left: -2rem;
   }
 
   .about-product p b {
