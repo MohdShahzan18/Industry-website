@@ -1402,10 +1402,23 @@ margin-left: -1rem;
   }
   
 }
-
+@media (max-width: 630px) {
+  .services-card {
+    margin-left: 3rem;
+  }
+}
 @media (max-width: 580px) {
   .services-card{
     margin-left: 1rem;
+  }   
+  .OurService-heading{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .services-card{
+    margin-left: -1rem;
   }   
 }
 
@@ -1435,14 +1448,34 @@ margin-left: -1rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .services-card{
     margin-left: -0.5rem;
   }   
 }
+
+
 @media (max-width: 480px) {
   .services-card{
-    margin-left: -2.5rem;
+    margin-left: -1rem;
+  }   
+}
+@media (max-width: 450px) {
+  .services-card{
+    margin-left: -2rem;
+  }   
+}
+@media (max-width: 430px) {
+  .services-card{
+    margin-left: -3.5rem;
+  }   
+  .OurService-heading{
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .services-card{
+    margin-left: -4.5rem;
   }   
 }
 @media (max-width: 380px) {
@@ -1463,5 +1496,12 @@ margin-left: -1rem;
   .card i{
     font-size: 2.8rem;
   }
+}
+
+@media (max-width: 355px) {
+  .services-card{
+    margin-left: -4.5rem;
+  }  
+  
 }
 /* End Our Service Responsive */
