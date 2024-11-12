@@ -1,18 +1,13 @@
-body{
-  width:100vw;
-  overflow-x:hidden;
-}
 /* Navbar */
-
 .section-header {
-  width:100vw;
-  overflow-x:hidden;
-  position: sticky;
+  width: 100%;
+  position: sticky; 
   top: 0;
   z-index: 1000;
   background-color: white;
   border-bottom: 1px solid #133e8740;
 }
+
 .container{
   box-sizing: border-box; 
 }
@@ -133,7 +128,7 @@ li a:hover {
 }
 
 .product-div ul li a:hover {
-  color: yellow;
+  color: red;
 }
 .quick-div {
   margin-top: 3rem;
@@ -150,7 +145,7 @@ li a:hover {
 }
 
 .quick-div ul li a:hover {
-  color: yellow;
+  color: red;
 }
 
 .address-div {
@@ -188,6 +183,7 @@ li a:hover {
   color: lawngreen;
   font-size: 4rem;
 }
+
 
 /* End footer */
 
@@ -372,7 +368,10 @@ li a:hover {
   .grid-four--columns {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .logo-div ,
+  .product-div{
+    padding-top: 3rem;
+  }
   .product-div h2,
   .quick-div h2,
   .address-div h2 {
