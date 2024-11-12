@@ -1051,15 +1051,16 @@ margin-bottom: 4rem;  }
   }
 }
 
+
 @media (max-width: 420px) {
   .service-section .main-box {
-    margin-left: -6rem;
+    margin-left: -3.5rem;
   } 
 
   .service-section .main-box .box{
     width: 280px;
     height: 330px; 
-    margin-left: 2rem;
+    margin-left: 1rem;
   } 
   .service-section .main-box p{
     margin-top: 1rem;
@@ -1079,7 +1080,7 @@ margin-bottom: 4rem;  }
 }
 @media (max-width: 400px) {
   .service-section .main-box {
-    margin-left: -4rem;
+    margin-left: -4.5rem;
   } 
 }
 
