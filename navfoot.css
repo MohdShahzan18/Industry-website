@@ -1,4 +1,3 @@
-
 /* Navbar */
 .section-header {
   width: 100%;
@@ -257,19 +256,35 @@ li a:hover {
     flex-direction: column;
   }
   .section-header .navbar {
-    margin-left: 15rem;
+    margin-left: 14rem;
   }
 }
 
-@media (max-width: 510px) {
+
+@media (max-width:560px) {
+  .section-header .navbar {
+    margin-left: 11rem;
+  }
+}
+@media (max-width:530px) {
   .section-header .navbar {
     margin-left: 8rem;
+  }
+}
+@media (max-width: 500px) {
+  .section-header .navbar {
+    margin-left: 5rem;
   }
 }
 
 @media (max-width: 480px) {
   .section-header .navbar {
     margin-left: 4rem;
+  }
+}
+@media (max-width: 460px) {
+  .section-header .navbar {
+    margin-left: 2rem;
   }
 }
 @media (max-width: 450px) {
@@ -280,7 +295,11 @@ li a:hover {
     font-size: 1.2rem;
   }
 }
-
+@media (max-width: 435px) {
+  .section-header .navbar {
+    margin-left: 4rem;
+  }
+}
 @media (max-width: 420px) {
   .section-header .navbar {
     margin-left: 4rem;
